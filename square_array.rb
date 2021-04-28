@@ -3,5 +3,5 @@ def square_array(numbers)
     squared = squared ** 2
     numbers[squared] = squared
   end
-  return newArray
+  return numbers
 end
