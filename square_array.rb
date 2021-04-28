@@ -1,7 +1,8 @@
 def square_array(numbers)
+  squaredArray
   numbers.each do |squared|
     squared = squared ** 2
-    numbers[squared] = squared
+    sqauredArray << squared
   end
-  return numbers
+  return squaredArray
 end
